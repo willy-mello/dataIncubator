@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 
 const Images = (props) => {
-  console.log('props in images', props)
+
   return props.images.map((image, idx) => {
     return (
       <div key={idx} className='fadein'>
